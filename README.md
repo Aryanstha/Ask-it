@@ -1,6 +1,6 @@
 # Ask-it
 
-Ask-it is a web app that allows users to ask questions and get answers from a open ai api..
+Ask-it is a web app that allows users to ask questions and get answers from a [open ai](https://openai.com) api..
 
 ## Getting Started
 
