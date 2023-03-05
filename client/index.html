@@ -12,13 +12,14 @@
 <div id="chat_container"></div>
 
 <form>
-<textarea id="result" name="prompt" rows="1" cols="1" placeholder="Ask ..."></textarea>
-<button id="speech-button" onmousedown="startSpeech()" onmouseup="stopSpeech()">Mic<button>
-        <button type="submit"><img src="assets/send.svg" alt="send" /></button>
-        </form>
+<textarea id="result" name="prompt"></textarea>
+<button type="submit"><img src="assets/send.svg" alt="send" /></button>
+</form>
+<button type="btn"  id="speech-button" onmousedown="startSpeech()" onmouseup="stopSpeech()">Mic<button></button>
+<script src="./speech.js"></script>
 </div>
 
 <script type="module" src="script.js"></script>
-        <script type="js" src="speech.js"></script>
+        
 </body>
 </html>
