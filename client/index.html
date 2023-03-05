@@ -12,8 +12,9 @@
 <div id="chat_container"></div>
 
 <form>
-<textarea class="texts" name="prompt" rows="1" cols="1" placeholder="Ask ..."></textarea>
-<button type="submit"><img src="assets/send.svg" alt="send" />
+<textarea id="result" name="prompt" rows="1" cols="1" placeholder="Ask ..."></textarea>
+id="speech-button" onmousedown="startSpeech()" onmouseup="stopSpeech()">Mic</button>
+        <button type="submit"><img src="assets/send.svg" alt="send" />
         </form>
 </div>
 
